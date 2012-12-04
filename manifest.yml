@@ -1,0 +1,14 @@
+--- 
+applications: 
+  .: 
+    instances: 1
+    name: Wiki
+    url: ${name}.${target-base}
+    framework: 
+      name: php
+      info: 
+        description: PHP Application
+        mem: 128M
+        exec: 
+    infra: aws
+    mem: 128M
