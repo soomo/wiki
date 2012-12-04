@@ -38,8 +38,12 @@ $wgSitename         = "SoomoWiki";
 ## defaults for all runtime URL paths are based off of this.
 ## For more information on customizing the URLs please see:
 ## http://www.mediawiki.org/wiki/Manual:Short_URL
+<<<<<<< HEAD
 $wgScriptPath       = "";
 #$wgScriptPath       = "/wiki";
+=======
+$wgScriptPath       = "/wiki";
+>>>>>>> f92e3d873cd56698c7fdef9e4863d97f05b16712
 $wgScriptExtension  = ".php";
 
 ## The relative URL path to the skins directory
@@ -63,7 +67,11 @@ $wgEmailAuthentication = true;
 
 ## Database settings
 $wgDBtype           = "mysql";
+<<<<<<< HEAD
 $wgDBserver         = "php-apps.cr5indqqfd8o.us-east-1.rds.amazonaws.com";
+=======
+$wgDBserver         = "wiki.cr5indqqfd8o.us-east-1.rds.amazonaws.com";
+>>>>>>> f92e3d873cd56698c7fdef9e4863d97f05b16712
 $wgDBname           = "mediawiki";
 $wgDBuser           = "soomo";
 $wgDBpassword       = "28801";
@@ -153,6 +161,9 @@ $wgCacheEpoch = max( $wgCacheEpoch, gmdate( 'YmdHis', @filemtime( __FILE__ ) ) )
 require_once('extensions/AlternateSyntaxParser/AlternateSyntaxParser.php');
 $wgEnableParserCache = false;
 
+<<<<<<< HEAD
 require_once( "$IP/extensions/UserMerge/UserMerge.php" );
 # Assign the usermerge right to a usergroup, i.e. to the bureaucrats:
 $wgGroupPermissions['bureaucrat']['usermerge'] = true;
+=======
+>>>>>>> f92e3d873cd56698c7fdef9e4863d97f05b16712
