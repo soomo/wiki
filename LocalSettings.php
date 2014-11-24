@@ -67,7 +67,7 @@ $wgDBserver         = "php-apps.cr5indqqfd8o.us-east-1.rds.amazonaws.com";
 ##$wgDBserver         = "wiki.cr5indqqfd8o.us-east-1.rds.amazonaws.com";
 $wgDBname           = "mediawiki";
 $wgDBuser           = "soomo";
-$wgDBpassword       = "28801";
+$wgDBpassword       = "redacted";
 
 # MySQL specific settings
 $wgDBprefix         = "wiki_";
